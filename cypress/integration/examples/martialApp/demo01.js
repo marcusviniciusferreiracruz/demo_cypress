@@ -58,7 +58,7 @@ context('Martial application', () => {
       cy.get(':nth-child(3) > .col-md-4').should('be.visible')
       cy.get('#password')
       .type('1234567891')
-      .should('include.value', '1234567891')
+      .should('include.value', '123456789')
 
       cy.get('.btn-primary')
       .should('be.visible')
